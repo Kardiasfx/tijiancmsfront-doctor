@@ -1,0 +1,53 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Users\Administrator\AppData\Roaming\npm\node_modules\yarn\bin\yarn.js
+
+PATH: 
+  C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\NetSarang\Xftp 6\;C:\Program Files (x86)\NetSarang\Xshell 6\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Java\jdk1.8.0_101\bin;C:\Program Files (x86)\Subversion\bin;C:\Program Files\Git\cmd;C:\Program Files (x86)\NetSarang\Xshell 7\;C:\Program Files\nodejs\;;C:\Users\Administrator\AppData\Roaming\npm;d:\Microsoft VS Code\bin
+
+Yarn version: 
+  1.22.19
+
+Node version: 
+  12.13.0
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: https://registry.npmmirror.com/element-plus/-/element-plus-2.3.14.tgz: unexpected end of file
+      at Zlib.zlibOnError [as onerror] (zlib.js:170:17)
+
+npm manifest: 
+  {
+    "name": "tijiancmsfront",
+    "version": "0.1.0",
+    "private": true,
+    "scripts": {
+      "serve": "vue-cli-service serve",
+      "build": "vue-cli-service build"
+    },
+    "dependencies": {
+      "axios": "^0.26.0",
+      "core-js": "^3.8.3",
+      "element-plus": "^2.0.5",
+      "vue": "^3.2.13",
+      "vue-router": "^4.0.3"
+    },
+    "devDependencies": {
+      "@vue/cli-plugin-babel": "~5.0.0",
+      "@vue/cli-plugin-router": "~5.0.0",
+      "@vue/cli-service": "~5.0.0"
+    },
+    "browserslist": [
+      "> 1%",
+      "last 2 versions",
+      "not dead",
+      "not ie 11"
+    ]
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
